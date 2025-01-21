@@ -173,9 +173,11 @@ nav{
   height: 15px;
 }
 #hr{
-  display: block;
+  display:block;
   width: 100%;
-  color: rgb(254, 163, 1);  /*color apply hocche na keno bujhtesina */
+  border: none;
+  height: 1.5px;
+  background-color: rgb(254, 163, 1);  /*color apply hocche na keno bujhtesina */
 }
 
 
