@@ -1,9 +1,141 @@
-body{
-  font-family: "Quicksand", serif;
-}
+body{ font-family: "Quicksand", serif;}
+
 
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; }
+
+
+body{ margin-top: 30px;}
+
+
+
+
+
+/* Shared style Section */
+
+.orange{
+  color: rgb(254, 163, 1);
+}
+
+.orange-bg{
+  background-color: rgb(254, 163, 1);
+}
+
+.sky-blue{
+  color: rgb(1, 172, 253);
+}
+
+.shade-green{
+  color: rgb(27, 134, 140);
+}
+
+.light-magenta{
+  color: rgb(93, 88, 239);
+}
+
+
+button:hover{
+  cursor: pointer;
+  color: white;
+  border: black;
+  background-color: #4c7ade;
+  border: 1px solid #25808e;
+}
+
+
+
+
+
+
+/* NavBar Section */
+
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+.h-icon{
+  display: none;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.container h2{
+  font-size: 2rem;
+  margin-left:5px;
+}
+
+
+.container-2{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.container-2 a{
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.container-3 button{
+  color: white;
+  padding: 11px 35px;
+  border: 1px solid rgb(254, 163, 1);
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+
+
+/* Banner Section  */
+
+
+
+
+
+
+
+/* Media Query Section */
+
+@media screen and (max-width: 576px) {
+
+/* NavBar Section */
+.container-2,.container-3,.container h2{
+  display: none;
+}
+
+nav{
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px 15px 40px;
+
+}
+.container img{
+  width: 46px;
+  height: 46px;
+}
+
+.h-icon{
+  display: block;
+  width: 22.5px;
+  height: 15px;
+}
+
+
+
+/* Banner Section */
+
+
+
+
+
 }
