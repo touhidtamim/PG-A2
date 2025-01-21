@@ -6,10 +6,9 @@ body{ font-family: "Quicksand", serif;}
   margin: 0;
   box-sizing: border-box; }
 
+header, main{ margin: auto 141px; }
 
 body{ margin-top: 30px;}
-
-
 
 
 
@@ -36,12 +35,12 @@ body{ margin-top: 30px;}
 }
 
 
-button:hover{
+.btn:hover{
   cursor: pointer;
   color: white;
-  border: black;
   background-color: #4c7ade;
-  border: 1px solid #25808e;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.2);
 }
 
 
@@ -53,7 +52,7 @@ button:hover{
 
 nav{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .h-icon{
@@ -98,6 +97,40 @@ nav{
 
 /* Banner Section  */
 
+.banner{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.banner h1{
+  width: 640px;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.banner p{
+  width: 640px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 24px;
+}
+.banner button{
+  color: white;
+  background-color: black;
+  padding: 11px 35px;
+  border: 1px solid black;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 26px;  
+}
+
+
+
 
 
 
@@ -108,6 +141,13 @@ nav{
 
 @media screen and (max-width: 576px) {
 
+
+header, main {
+  margin: auto 40px; /* Remove margin for small screens */
+  /* padding: 15px 40px 15px 40px; */
+}
+
+
 /* NavBar Section */
 .container-2,.container-3,.container h2{
   display: none;
@@ -116,7 +156,7 @@ nav{
 nav{
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px 15px 40px;
+  margin: 20px;
 
 }
 .container img{
@@ -133,6 +173,38 @@ nav{
 
 
 /* Banner Section */
+
+.banner{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.banner-description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner h1{
+  width: 100%;
+  font-size: 2.2rem;
+  text-align: center; 
+}
+
+.banner p{
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
 
 
 
