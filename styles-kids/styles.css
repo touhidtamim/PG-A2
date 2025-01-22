@@ -6,7 +6,10 @@ body{ font-family: "Quicksand", serif;}
   margin: 0;
   box-sizing: border-box; }
 
-header, main{ margin: auto 141px; }
+header{ margin: auto 141px; }
+
+.banner-Section { margin: auto 141px; }
+
 
 body{ margin-top: 30px;}
 
@@ -26,13 +29,35 @@ body{ margin-top: 30px;}
   color: rgb(1, 172, 253);
 }
 
+.sky-blue-bg{
+  background-color:rgb(1, 172, 253) ;
+}
 .shade-green{
   color: rgb(27, 134, 140);
+}
+
+.shade-green-bg{
+  background-color:rgb(27, 134, 140) ;
 }
 
 .light-magenta{
   color: rgb(93, 88, 239);
 }
+
+.light-magenta-bg{
+  background-color:rgb(93, 88, 239); ;
+}
+
+.Greenish-Cyan-bg{
+  background-color: #20C073 ;
+}
+.Debian-Red-bg{
+  background-color: #D60A51 ;
+}
+.Peacock-Blue-bg{
+  background-color: #015A83 ;
+}
+
 
 
 .btn:hover{
@@ -96,7 +121,14 @@ nav{
   margin-top: 8px;
 }
 
-
+ marquee{
+  width: 100%;
+  padding: 7px 0;
+  margin-top: 15px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(223, 155, 37) ;
+}
 
 /* Banner Section  */
 
@@ -156,7 +188,10 @@ nav{
   justify-content: space-between;
   text-align: center;
   gap: 20px;
+  margin-left: 141px;
+  margin-right: 141px;
 }
+
 
 .cart-1{
   box-sizing: border-box;
@@ -228,6 +263,20 @@ nav{
 }
 
 
+/* Our Stories Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -237,10 +286,10 @@ nav{
 
 
 header, main {
-  margin: auto 40px; /* Remove margin for small screens */
-  /* padding: 15px 40px 15px 40px; */
+  margin: auto 40px; /* customize margin for small screens */
 }
 
+.banner-Section,.carts { margin: 0; }
 
 /* NavBar Section */
 .container-2,.container-3,.container h2{
@@ -325,6 +374,9 @@ nav{
 .cart-3{
   margin-bottom: 80px;
 }
+
+
+/* Our Stories Section */
 
 
 
