@@ -265,19 +265,107 @@ nav{
 
 /* Our Stories Section */
 
+.small-cart-5, .small-cart-6{
+  display: none;
+}
+
+.story-section{
+  background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+  /* background-image: url(../assets/bg-1.png); */
+  background-size: cover;
+  background-position: center;
+}
+
+.story-heading{
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+
+.story-heading h2{
+  font-size: 2.8rem;
+  font-weight: 700;
+}
 
 
 
+.p-container{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1237px;
+  margin-left: 141px;
+  margin-right: 141px;
+}
+
+.c1-container{
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: white;
+  max-width: 578px;
+  margin-right: 30px;
+}
+
+.c1-container img{
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.c1-container h3{
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 34px;
+}
+
+.c1-container p{
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(102, 102, 102);
+  margin: 20px 60px 34px 38px;
+}
+
+.c2-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 638px;
+}
+
+.small-carts{
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.small-carts img{
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;  
+}
+
+.small-carts h4{
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 30px;
+  padding: 10px 55px 33px 37px;
+}
 
 
-
-
-
-
-
-
-
-
+.view-all button{
+  color: white;
+  background-color: black;
+  padding: 11px 35px;
+  border: 1px solid black;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 80px; 
+   
+}
+.view-all{
+  text-align: center;
+}
 
 
 /* Media Query Section */
@@ -289,7 +377,7 @@ header, main {
   margin: auto 40px; /* customize margin for small screens */
 }
 
-.banner-Section,.carts { margin: 0; }
+.banner-Section,.carts, .story-section{ margin: 0; }
 
 /* NavBar Section */
 .container-2,.container-3,.container h2{
@@ -378,11 +466,25 @@ nav{
 
 /* Our Stories Section */
 
+.c1-container{
+  display: none;
+}
 
+.small-cart-5, .small-cart-6{
+  display: block;
+}
 
+.c2-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  /* margin-left: 20px; */
+}
 
-
-
+.p-container{
+ margin: auto 40px;
+ max-width: 173px;
+}
 
 
 
